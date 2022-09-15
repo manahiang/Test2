@@ -1,0 +1,618 @@
+// let age,access;
+// for(age=1;age<20;++age){
+//     if(age<3){
+//         access=true
+//         console.log(access)
+//     }
+//     else{
+//         access=false
+//         console.log(access)
+//     }
+// }
+
+//create function 
+// function hello(){
+//     let a;
+//     a= 2<3;
+//     console.log(a)
+// }
+
+// create function1
+// function hell1(){
+//     let age,school;
+//     age=2;
+//     if(age==2){
+//         school=true;
+//         console.log(school)
+//     }
+// }
+//create function
+// function hello2(){
+//    let number=4==5;
+//    console.log(number)
+// }
+// hello();
+// hell1();
+// hello2();
+
+
+//outer variable
+// let name="I'm mana:"
+// let number=3<4;
+// function outervariable(){
+// let function_using=" Hello"+name+number
+// console.log(function_using)
+// }
+// outervariable();
+
+
+
+//full access in function
+// let name ="mana";
+// function hello(){
+//      name="john"
+//     let message="How are you"+name+name
+//     console.log(message)
+// }
+// hello();
+
+
+// //function with parameter
+// function student(name,id,age,phone){
+  
+//     console.log(name,id,age,phone)
+// }
+
+// student('hiang mana',57058,44,097945594);
+
+
+// //function with parameter1
+// function student(name,age,id){
+//     console.log('my name is:'+ name+"\n"+'my age is:'+age+'\n' +'my id is:'+id)
+// }
+// student('hinag mana',33,67066)
+
+// function with parameter2
+// function stuff(name,id,age){
+    
+//     console.log('my name is'+name+'\n'+'my id is:'+id+'\n'+'my age is' +age)
+// }
+// stuff('hiangmana',57058,0969340113);
+
+//function with parameter
+// function customer(name,age,id){
+//     console.log(name,age,id)
+// }
+// customer('hiang mana',33,3333333);
+
+
+//return value
+// function sum(a,b){
+//     return a ==b;
+// function sum(a,b){
+    //     return a ==b;
+    
+    // }
+    // let result=sum(4,4)
+    // console.log(result)
+    
+    // //return value1
+    // function add(b,d){
+    // return(a<b)
+    // }
+    // let real=sum(3,4)
+    // console.log(real)
+    
+    // //return value2
+    // function add(john,mark){
+    //     return (john<mark)
+    // }
+    // let get=add(44,55)
+    // console.log('the answer is:'+get)
+    
+    // //return value3
+    // function div(tall,weight){
+    //     return (tall==weight)
+    // }
+    // let getting=div(44,43)
+    // console.log(getting)  
+// }
+// let result=sum(4,4)
+// console.log(result)
+
+// //return value1
+// function add(b,d){
+// return(a<b)
+// }
+// let real=sum(3,4)
+// console.log(real)
+
+// //return value2
+// function add(john,mark){
+//     return (john<mark)
+// }
+// let get=add(44,55)
+// console.log('the answer is:'+get)
+
+// //return value3
+// function div(tall,weight){
+//     return (tall==weight)
+// }
+// let getting=div(44,43)
+// console.log(getting)
+
+
+
+//function with parameter
+// function student(name,age,id){
+//     console.log('my name is:'+name+"\nMy age is"+age+"\nMy id is:"+id)}
+// student('mana',22,3333);
+
+//return function
+// function name(age,id){
+//     return(age+id)
+// }
+// let sum=(44,33)
+
+//return values
+// function student(a,b){
+//     return(a<b)
+// }
+// let sum=student(33,33)
+// alert(sum)
+
+//return function
+// function name(a,b){
+//     return a-b;
+// }
+// let result=(3,3)
+// alert(result)
+
+// function student(name,age,id){
+//     return name,age,id
+// }
+// let show=student('mana',44,44)
+// console.log(show)
+
+//return value
+// function sum(a,b,c){
+//     return a,b,c
+// }
+// let sum1=sum(33,44,5)
+// console.log(sum1)
+
+// function customer(name,age){
+//     return name,age
+// }
+// let sum=customer('mana',44)
+// alert(sum)
+// function one(){
+//     return ('one')
+// }
+
+
+// return function
+// function sum(a,b){
+//     return a==b;
+// }
+// let sum1=sum(4,4)
+// console.log(sum1)//true
+
+// function sum2(a,b){
+//     return a+b;
+// }
+// let sum3=sum2(4,4)
+// console.log(sum3)
+
+
+// function add(a,b){
+//     return a==b;
+// }
+// let add_num=add(33,42)
+// console.log(add_num)
+
+// function Checkage(age){
+//     if(age>=18){
+//         return true;
+//     }
+//     else{
+//         return confirm;
+//     }
+// }
+// let age=prompt('How old are you',18)
+// if (Checkage(age)){
+//     alert('access grand')
+// }
+// else{
+//     alert('not checkage')
+// }
+// function checkage(age){
+//     if(checkage>=18){
+//         return true;
+//     }
+//     else{
+//         return confirm('you are young')
+//     }
+// }
+// let age=prompt('input your age here')
+// if(checkage(age)){
+//     alert('you can access')
+// }
+// else{
+//     alert('sorry you can not access')
+// }
+
+// function sum(name,age){
+//     return name,age
+// }
+// let real=sum('hiang mana',33)
+// alert(real)
+//  function sum (a,b){
+//     return a-b;
+//  }
+//  let result =sum(44,22);
+//  console.log(result)
+
+//  function add(name,age){
+//     return name+age
+//  }
+//  let add1=add(44,44)
+//  console.log(add1)
+
+
+// function show(a,b){
+//     let result =a<b
+//     console.log(result)
+// }
+// show(4,4)
+
+
+// function add (a,b){
+//     return a-b;
+// }
+// alert(add(44,55))
+
+// function show (a,b){
+//     return a-b
+// }
+// console.log(show(3,5))
+
+// return function with parameter
+// function add(love,like){
+//     return love==like
+// }
+// alert(add(34,55))
+
+// function showprime(n){
+//     return n;
+// }
+// n=prompt('input your age')
+// if(n<10){
+//     console.log('you are young')
+// }
+// else{
+//     alert('you were done')
+// }
+// console.log('good luch!')
+
+
+// function ShowAge(n){
+//     return n;
+// }
+// n=prompt('please input your age',18)
+// if(n>18){
+//     alert('you were done!!')
+// }
+// else{
+//     alert('you are young')
+// }
+// console.log('good luck!!')
+
+// function ShowAge(n){
+//     return n;
+// }
+// while(true){
+//     n=prompt('input your age',35)
+//     if(n<35){
+//         break;
+//         alert('Okay you can work')
+//     }
+//     else{
+//         alert('sorry you still not working on this')
+//     }
+// }
+// console.log('good luck!!!!!!!')
+
+// function show(n){
+//     return n;
+// }
+// while(true){
+//     n=prompt('How old are you',35)
+//     if(n<35){
+//         alert('Okay you were done!!')
+//     }
+//     else{
+//         alert('sorry you are old')
+//     }
+// }
+// console.log('good luck!!')
+
+// function Showprime(n){
+//     return n;
+// }
+// n=prompt('input number')
+// if(n/2==1 || n/3==1 || n/5==1){
+//     alert('it is prime number')
+// }
+// else{
+//     alert('is not prime number')
+// }
+
+// return fucntion
+// function creative(age){
+//     return n;
+// }
+// while(true){
+//     age=prompt('please input your age')
+//     if(age>18 && age<40){
+//         alert('you can access it')
+//     }
+//     else{
+//         alert('sorry you cannot access our work')
+//     }
+// }
+// console.log('you were done!!')
+
+
+//arrow function
+// let create=(n)=>n;
+// alert(create(10))
+
+//arrow function
+// let create=(a,d,c)=>a+d+c
+// alert(create(44,3,5))
+
+//arrow function
+// let create =(a,b,c)=>a+b+c
+// alert(create(33,5,5))
+// console.log('you were success on your arrow function')
+
+//arrow function
+// let create =(a,b)=>a>b
+// alert(create(4,3))
+// console.log('you successful to understand arrow function')
+
+//arrow function
+// let create=(a,b,d)=>(a+b)<d
+// alert(create(3.4,5,5))
+// if(create==false){
+//     console.log('you cannot access it')
+// }
+
+//arrow function
+// let show=(age,tall)=>age/tall
+// alert(show(44,43))
+
+//arrow function
+// let show=(n)=>n/4
+// alert(show(8))
+
+
+//arrow function
+
+// let show=(b)=>b+4;
+// alert(show(55))
+
+
+// let mana=()=>alert('hello mana')
+// mana();
+
+// let name=()=>console.log('Hello name')
+// name();
+
+//function
+// let age=prompt('how old are you',18)
+// let welcome=(age<18)?
+// ()=>alert('you welcome'):()=>alert('sorry about that')
+// welcome();
+
+//arrow function
+// let tall=prompt('how tall are you',1.7)
+// let show=(tall>1.5)?
+// ()=>alert('you are tall'):()=>alert('you are short')
+// show();
+
+// let sum=(a,b)=>{
+//     let result=a+b;
+//     return result;
+// }
+// alert(sum(4,3))
+
+// let sum=(a,b)=>{
+//     let result=a-b;
+//     return result;
+// }
+// alert(sum(4,5))
+
+//task arrow function
+// let yes,no;
+// let replace=prompt('reply Yes or No')
+// let reply=(replace==yes)?
+// ()=>('Good'):()=>('you are not good')
+// reply();
+// function ask(question,yes,no){
+//     if(confirm(question))yes();
+//     else(no)
+// }
+// ask("do you agree?",
+// ()=>alert('you agree'),()=>alert('you do not agree' )
+// );
+// function ask(question,yes,no)
+// if(confirm(question))yes();
+// else (no)
+// ask("do you agree",()=>alert('you aggree')),()=>('you dont agree');
+
+
+//jacascript array with methords
+// const word=['apple','mango','mangosteen','']
+// const result=word.filter(word=>word.length>3)
+// console.log(result);
+// //javascript array with mthords
+// const word=['mango','mangosteen','pineaple']
+// const result=word.filter(word=>word.length>3)
+// alert(result)
+// let fruit=['apple','mango','mangosteen','pineaple']
+// let result=fruit.filter(fruit=>fruit.length>4)
+// alert(result);
+// let fruit=['a','b','c','d','e']
+// let real=fruit.filter(fruit=>fruit.length>8)
+// alert(real)
+
+// async function f(){
+//     return 1;
+// }
+// f().then(alert)
+
+// async function n(){
+//     return Promise.resolve(1);
+// }
+// n().then(alert)
+
+//arrow function
+// let show=(age,name)=>age>name;
+// alert(show(44,3))
+
+// let show=(age,name)=>age<name
+// alert(show(3,5))
+// let show=(a,b)=>{
+//     let result=a+b
+//     return result;
+// }
+// alert(show(4,8))
+
+// let show=(age,tall)=>{
+//     let result
+// }
+
+// let show=(a,b)=>{
+//     let result=a+b
+//     return result;
+// }
+// alert(show(4,4))
+// document.write(show)
+// let show=(a,b)=>{
+//     let real=a<b
+//     return real;
+// }
+// console.log(show(4,8))
+// async function create (n){
+// return n;
+// }
+// while(true){
+//     n=prompt(' how old are you')
+//     if(n<30){
+//         break;
+//         alert('good you were done!!')
+//     }
+//     else{
+//         alert('sorry ')
+//     }
+// }
+//Use arrow function with prime number
+
+
+// function show(prime){
+//     return prime;
+// }
+// prime=prompt('input the number',2)
+// if(prime%2==1 && prime%3==1){
+//     alert('prime number')
+// }
+// else{
+//     alert('is not prime number')
+// }
+
+
+//arrow function
+
+
+// let show=(numer)=>{
+//     let real=numer=prompt('input age')
+//     return real;
+// }
+// console.log(show(1))
+
+// let number;
+// for(number=1;number<20;number++){
+//     if(number%3==1 && number%2==1){
+//         console.log(number+'is prime')
+//     }
+//     else if(number%2==1|| number%3==1){
+//         console.log(number+'prime number')
+//     }
+//     else{
+//         console.log(number+'not prime'+number)
+//     }
+    
+// }
+// function isPrime(num) {
+//     var sqrtnum=Math.floor(Math.sqrt(num));
+//       var prime = num != 1;
+//       for(var i=2; i<sqrtnum+1; i++) { // sqrtnum+1
+//           if(num % i == 0) {
+//               prime = false;
+//               break;
+//           }
+//       }
+//       return prime;
+//   }
+
+
+
+
+
+// let show=(n)=>{
+//     let result=n;
+//     return result;
+// }
+// n=prompt('input your age')
+// while(true){
+//     if(n<40){
+//         break;
+//         alert('you were done!!')
+//     }
+//     else{
+//         alert('sorry')
+//     }
+// }
+// console.log(show(5))
+
+
+// let show=(n)=>{
+//     let result=n;
+//     return result;
+// }
+// n=prompt('How old are you')
+// while(true){
+// if(n<40){
+//     break;
+//     console.log('you are young')
+// }
+// else{
+//     console.log('you are old')
+// }
+// alert(show(4))}
+
+// const num=[1,3,6,5,0,7]
+// const map1=num.map(x=>x*1)
+// console.log(map1)
+
+// const num=[2,4,5,6,7]
+// const map1=num.map(x=>x *1)
+// console.log(map1)
+
+// const num1=[4,5,8,7]
+// const map1=num1.map(x=>x*2)
+// console.log(map1)
+const num1=[4,6,7,4,9]
+const map1=num1.map((num))=>Math.sqrt(num))

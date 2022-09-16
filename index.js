@@ -614,5 +614,90 @@
 // const num1=[4,5,8,7]
 // const map1=num1.map(x=>x*2)
 // console.log(map1)
-const num1=[4,6,7,4,9]
-const map1=num1.map((num))=>Math.sqrt(num))
+
+// const num1=[3,5,6]
+// const map1=num1.map(x=>x)
+// console.log(map1)
+
+// const num2=[24,66,889,]
+// const map1=num2.map(x=>x*4)
+// console.log(map1)
+
+
+
+// const num1=[33,55,66,77,8,9,]
+// const map1=num1.map(x=>x)
+// console.log(map1)
+
+// const number=[4,5,7,9,33,4,45,99]
+// const map1=number.map(y=>y)
+// console.log(map1)
+
+// const fruit=["Apple",'Banana','cucumber']
+// alert(fruit.push('Beer'))
+// alert(fruit)
+
+// const fruit=['apple','bannana','mangosteen','lemon','cucumber','javaplum']
+// alert(fruit.push('madagasger plum'))
+// alert(fruit.push('Mana'))
+// alert(fruit)
+
+
+// const beer=['Ganberg','Cambodia','Black Tiger']
+// beer.push('krud')
+// beer.push('Haknuman')
+// console.log(beer[4]+'\n'+beer[3]+'\n'+beer[2])
+
+// const beer=['comabodia','krud','black tiger','haknuman']
+// beer.push('genberg')
+// beer.push('hericale')
+// beer.push('chang')
+// console.log(beer)
+
+
+// const beer=['cambodia','krud','charng','genberg','black tiger']
+// beer.push('Haknuman')
+// beer.push('Herical')
+// beer.pop();
+// console.log(beer)
+
+// let show=(a,b)=>{
+//     let create=a<b
+//     return create
+// }
+// console.log(show(3,4))
+
+
+
+
+
+//arrow function
+// let create=(n,b)=>{
+//     let show=(n*n)+(2*n*b)+(b*b)
+//     return show;
+// }
+// console.log(create(3,3))
+
+
+//arrow function
+// let show=(a,b)=>(a*a)+(2*a*b)+(b*b)
+// console.log(show(4,4))
+
+
+
+//return function
+// function show(name,age){
+//     return name,age;
+// }
+// console.log('mana', 33)
+
+//array methord
+// let beer=[33,5,44,77,66];
+// let map1=beer.map(x=>x-3)
+// console.log(map1)
+
+
+//arrat methord
+let number=[33,44,55,66,77]
+let map1=number.map(x=>x+4)
+console.log(map1)

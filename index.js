@@ -754,6 +754,120 @@
 // beer.push('cambodia')
 // beer.pop()git 
 // console.log('the beer that i need to drink is '+beer)
-let k=1;
-k+=2;
-console.log(k)
+// let k=1;
+// k+=2;
+// console.log(k)
+
+// let number=3;
+// let number1=4;
+// let result=number===number1
+// console.log(result)
+
+
+// console.log(false===true)
+
+
+
+// console.log(true||false||true)
+
+// console.log(false||true)
+
+// let create=(name,age)=>name<age
+// console.log(create(33,44))
+
+
+// let create=(num1,num2)=>num1==num2
+// console.log(create(44,77))
+
+
+// let create=(num1,num2)=>{
+//     let result=num1<num2
+//     return result;
+// }
+// console.log(create(33,44))
+// function name(){
+//     let name='hinag amna'
+//     let age=44
+//     console.log('my name'+name,'my age is'+age)
+// }
+// name();
+
+
+// function name(n){
+//     return n;
+// }
+// let n=44;
+// console.log(n)
+
+
+// function input(name,age,tall){
+//     return name,age,tall
+// }
+// let name='mana';
+// let age =44;
+// let tall=44;
+// console.log(name,age,tall)
+
+
+
+// function stu_information(name,id,age,phone,place){
+//     return name,id ,age,phone,place;
+// }
+// let name,id,age,phone,place;
+// name="Hiang  mana";id=4444;age=44;phone=44444;place='pp'
+// console.log(name,id,age,phone,place)
+
+
+// function stu_information(name,id,age,phone,place){
+//     return name,id,age,phone,place;
+// }
+// let name,id,age,phone,place;
+// name='hiang mana',id=444;age=24;phone=333333;place='Phnom Penh'
+// console.log(name,id,age,phone,place)
+
+// function create(name,age,id,phone){
+//     return name,age,id,phone;
+
+// }
+// let name,age,id,phone;
+// name="Hiang Mana"; age=33;id=57058;phone=44;
+// console.log(name,age,id,phone)
+
+// let create=(name,age)=>{
+//     let show=name>age
+//     return show;
+// }
+// console.log(create(44,33))
+
+
+// let age=44;
+// let result=(age<55)?
+// ()=>console.log('you are old'):()=>onclose.log('you are young')
+// result();
+
+// let age=33;
+// let show=(age<50)?
+// ()=>console.log('you are lock'):()=>console.log('you are outsite of lock')
+// show();
+
+// let age=33;
+// let show=(age<44)?()=>console.log('yes'):()=>console.log('no')
+// show();
+
+// let age =33;
+// let result=(age<44)?console.log('you are young'):console.log('you are old')
+// console.log(result)
+
+
+// let name='hiang mana';
+// let show=(name=='hiang mana')?console.log('Yes'):('No')
+// console.log(show)
+
+// let age=33;
+// let show=(age<33)?()=>console.log('Yes'):()=>console.log('No')
+// show();
+
+
+// let name='hiang mana'
+// let show =(name=='hiang mana')?()=>console.log('Good'):()=>('Not good')
+// show();

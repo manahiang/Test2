@@ -698,6 +698,62 @@
 
 
 //arrat methord
-let number=[33,44,55,66,77]
-let map1=number.map(x=>x+4)
-console.log(map1)
+// let number=[33,44,55,66,77]
+// let map1=number.map(x=>x+4)
+// console.log(map1)
+
+
+// const word=['spray','limit','elite','exuberant','destruction',]
+// const result=word.filter(word=>word.length>5)
+// console.log(result)
+
+
+
+// const number=['spray','limit','elit','exuberant','destruction']
+// const result=word.filter(word=>word.length>7)
+// console.log(number)git 
+
+// const word=['beer','cow','humen','son','people']
+// const word1=word.filter(word=>word.length<7)
+// console.log(word1)
+
+
+// const number=['spray','limit','elit','exuberant','destruction']
+// const number1=number.filter(number=>number.length=4)
+// console.log(number1)
+
+// function isPrime(num){
+//     for(i=2;num>i;i++){
+//         if(num%i===0){
+//             return false;
+//         }
+//     }
+//     return num>1;
+// }
+// console.log(Array.filter(isPrime));
+
+// export function sayHi(user) {
+//     console.log(`Hello, ${user}!`);
+//   }
+
+// let creat=['mana','sokmean','dana']
+// let show=creat.filter(creat=>creat.length<8)
+// console.log(show)
+
+
+
+// let create=(a,b)=>{
+//     let result=a+b
+//     return result;
+// }
+// console.log(create(5,6))
+
+
+// let beer=['black tiger','genberg','krud']
+// beer.push('haknuman')
+// beer.push('cambodia')
+// beer.pop()git 
+// console.log('the beer that i need to drink is '+beer)
+let k=1;
+k+=2;
+console.log(k)

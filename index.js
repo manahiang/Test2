@@ -871,3 +871,38 @@
 // let name='hiang mana'
 // let show =(name=='hiang mana')?()=>console.log('Good'):()=>('Not good')
 // show();
+
+// let age=33;
+// let show=(age<40)?()=>console.log('Good'):()=>console.log('Not good')
+// show();
+// let stu_information=(name,age,id,phone,place)=>{
+//     let show=age==id==name==phone
+//     return show
+// }
+// console.log(stu_information(44,44,5,6,2,66))
+
+// function stu_information(name,age,id,phone,place){
+//     return name,age,id,phone,place;
+// }
+// let name,age,id,phone,place;
+// name='hiang mana';age=22;id=33453;place="Phnom Penh"
+// console.log(name,age,id,phone,place)
+// let create=(name,age)=>name==age
+// console.log(create(44,44))
+
+// let name="mana";
+// let create=(name=="mana")?()=>console.log('Thank for select this name'):()=>console.log('You are false for this sitruation')
+// create();
+
+
+// function student(name,age,phone,place){
+//     return name,age,phone,place;
+// }
+// let name,age,phone,place;
+// name="hiang mana";age=33;phone=09863833;place='Phnom Penh'
+// console.log(name,age,phone,place)
+
+//Review array 
+//  let student=['id','age','phone','place']
+//  student.push('telephone')
+//  console.log(student)

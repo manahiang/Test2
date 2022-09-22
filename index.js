@@ -906,3 +906,163 @@
 //  let student=['id','age','phone','place']
 //  student.push('telephone')
 //  console.log(student)
+
+
+
+// let stu_information=(name,age,id,phone)=>{
+//     return name,age,id,phone;
+// }
+// console.log(stu_information('mana',33,44,33))
+
+
+// let beer=['krud','genberg','haknuman','cambodia']
+// // beer.push('black tiger')
+// // console.log(beer)
+
+// let age=33;
+// let show=(age<30)?()=>console.log('Sorry'):()=>console.log('you are enable to show')
+// show();
+
+// let create=(n,b)=>{
+//     let show=n>b
+//     return show
+// }
+// console.log(create(4,3))
+
+
+// function student_information(name,id,age,phone,mobile,place){
+//     return name,id,age,phone,mobile,place;
+// }
+// let name,age,id,phone,mobile,place;
+// name="Hiang mana";age=33;id=434433;mobile='smartphone';place="Phnom Penh"
+// console.log(name,id,age,phone,mobile,place)
+
+
+// function information(name,age,id,phone,current_place,birth_place){
+//     return name,age,id,phone,current_place,birth_place;
+// }
+// let name,age,id,phone,current_place,birth_place;
+// name="Hiang Mana";age=33;phone=097945544;current_place='phnom Penh';birth_place="Banteay meanchey";
+// console.log(name,age,id,phone,birth_place,current_place)
+
+
+// let number;
+// for(number=1;number<10;number++){
+//     if(number%2==0){
+//         console.log('this even number')
+//     }
+//     else{
+//         console.log('thsi is odd number')
+//     }
+//     console.log(number)
+// }
+
+//review while loop
+// let number=1;
+// while(number<10){
+//     console.log(number)
+//     ++number;
+//     if(number==3){
+//         break;
+//     }
+//     else{
+//         continue;
+//     }
+// }
+
+
+// let number=1;
+// while(number<20){
+//     console.log(number)
+//     ++number;
+//     if(number==4){
+//         break;
+//     }
+// }
+
+
+// let num=1;
+// while(num<19){
+//     console.log(num)
+//     ++num;
+//     if(num===3){
+//         continue;
+//     }
+// }
+
+// for(let number=1;number<10;number++){
+//     console.log(number)
+//     if(number===6){continue}
+// }
+
+
+// for (let num=1;num<10;num++){
+//     if(num===3 || num===5){
+//         continue;
+//     }
+//     console.log(num)
+
+//     if(num==7){break;}
+// }
+
+
+// let number=1;
+// while(number<10)
+// {
+//     console.log(number)
+//     if(number===3){
+//         continue
+//     }
+    
+//     number++;
+// }
+
+// let number=1;
+// while(number<10){
+//     if(number===3){continue}
+//     console.log(number)
+//     number++
+// }
+
+// let number=1;
+// while(number<10){
+//     if(number===7){continue}
+//     console.log(number)
+//     number++;
+// }
+
+// let num=1;
+// while(num<10){
+//     if(num==5){continue}
+//     console.log(num)
+//     ++num;
+// }
+
+// let number=1;
+// while(number<10){
+//     if(number==5){continue}
+//     console.log(number)
+//     ++number;
+// }
+
+// let num=3;
+// switch(num){
+//     case 1: console.log('number 1');break;
+//     case 2:console.log('number 2');break;
+//     case 3:console.log('number 3');break
+ //     default:console.log('i dont know')
+// }
+
+// let num=2;
+// switch(num){
+//     case 1: console.log('sorry');break
+//     case 2: console.log('Okay for you');break;
+//     default:console.log('I dnnot')
+// }
+
+// let mana=3;
+// switch(mana){
+//     case 1: console.log('you are number 1');break;
+//     case 2:console.log('you are number2');break;
+//     default:console.log('you gotta nothing')
+// }

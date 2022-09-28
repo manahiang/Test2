@@ -1066,3 +1066,58 @@
 //     case 2:console.log('you are number2');break;
 //     default:console.log('you gotta nothing')
 // }
+
+
+// //challeng pchom ben day
+// //1#
+// function Helloworld(helloworld){
+//     return helloworld
+// }
+// console.log(Helloworld('Helloworld'))
+
+// //2#
+
+// function addition(num1,num2){
+//     return num1+num2
+// }
+// console.log(addition(2,3))
+
+
+// // 3#
+// function b(n,n1,n2){
+//     return n;
+// }
+// let n=5==0 || 5<0
+// let n1=0==0
+// let n2=-2<0
+// console.log(n)
+// console.log(n1)
+// console.log(n2)
+
+// //Challange 2
+// //1
+// function sum(num1,num2){
+//     return num1<num2
+// }
+// console.log(sum(4,8))
+
+// //2 
+// function sum1(num1,num2){
+//     return num1==num2
+// }
+// console.log(sum1(2,2))
+
+// // 3
+// function sum3(num1,num2){
+//     return num1>num2
+// }
+// console.log(sum3(2,"2"))
+
+// //2#
+
+// function sum4(s){
+//     return s;
+// }
+// let s=1+2+3+4;
+// console.log(s)
+
